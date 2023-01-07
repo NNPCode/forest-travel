@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header"> 
-        <!-- header-row -->
+    <header class="header-inner"> 
         <div class="header-row">
             <div class="logo">ФорестТревел</div>
             <nav class="header-nav">
@@ -22,62 +21,90 @@
                 </ul>
             </nav>
         </div>
-        <!-- /header-row -->
-
-        <!-- header-content -->
-        <div class="header-content">
-            <h1 class="header-title">Путешествие всегда хорошая идея</h1>
-            <p>Турпоходы по дикой природе</p>
-        </div>
-        <!-- /header-content -->
-
-        <!-- scroll -->
-        <a href="#" class="header-scroll">скролл вниз</a>
-        <!-- /scroll -->
     </header>
-    <main class="main">
+    <main class="inner-page-tours">
         <div class="container">
-            <!-- main-row -->
-            <div class="main-row">
-                <div class="main-content">
-                    <h2 class="main-content-title">Популярные направления</h2>
-                    <div class="main-content-text">
-                        <p>Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают, что нужно еще разобраться, кто тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по Чуйскому тракту , по <a href="#">Горному Алтаю</a> до самой Монголии. 962 км — полный маршрут <b>Новосибирск—Новоалтайск—Бийск—Майма</b> —государственная граница с Монголией.</p>
-                    </div>
-                    <a href="#" class="main-content-btn">Подробнее</a>
-                </div>
-                <div class="main-content-img">
-                    <img src="./img/main-page/content-1.jpg" alt="Популярные направления">
-                </div>
+            <div class="inner-page-tours-header">
+                <h1 class="main-content-title">Туры и направления</h1>
             </div>
-            <!-- /main-row -->
+            <!-- cards-wrapper-->
+            <div class="cards-wrapper">
+                <!-- cards-row-->
+                <div class="cards-row">
+                    <!-- card -->
+                    <a href="#">
+                        <div class="card gray-color">
+                            <img src="./img/cards/card-tours-1.jpg" alt="Бесплатные туры">
+                            <div class="tours-description">
+                                <h3 class="tours-description-title">Бесплатные туры</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- /card -->
 
-            <!-- main-row -->
-            <div class="main-row">
-                <div class="main-content">
-                    <h2 class="main-content-title">Впечатляющие маршруты</h2>
-                    <div class="main-content-text">
-                        <p>Вишенкой на торте станет поездка в Национальный парк <b>Порт-Кэмпбелл</b> через Ocean Road, которая сама по себе стоит визита в <a href="#">Австралию</a>. Полюбуетесь одной из главных достопримечательностей страны — скалами, которые до 1922 года были известны в народе как <b>«Хрюшка и поросята»,</b> а сегодня носят название «Двенадцать апостолов».</p>
+                    <!-- card -->
+                    <a href="#">
+                        <div class="card sand-color">
+                            <img src="./img/cards/card-tours-2.jpg" alt="Экстремальный отдых">
+                            <div class="tours-description">
+                                <h3 class="tours-description-title">Экстремальный отдых</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- /card -->
+                </div>
+                <!-- /cards-row-->
+
+                <!-- cards-row-->
+                <div class="cards-row">
+                    <div class="cards-row-column">
+                        <!-- card -->
+                        <a href="#">
+                            <div class="card blue-color">
+                                <img src="./img/cards/card-tours-3.jpg" alt="Невероятные приключения">
+                                <div class="tours-description">
+                                    <h3 class="tours-description-title">Невероятные приключения</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- /card -->
+
+                        <!-- card -->
+                        <a href="#">
+                            <div class="card brown-color">
+                                <img src="./img/cards/card-tours-4.jpg" alt="Трекинг походы">
+                                <div class="tours-description">
+                                    <h3 class="tours-description-title">Трекинг походы</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- /card -->
                     </div>
-                    <a href="#" class="main-content-btn">Подробнее</a>
+                    <div class="cards-row-column">
+                        <!-- card -->
+                        <a href="#">
+                            <div class="card green-color">
+                                <img src="./img/cards/card-tours-5.jpg" alt="Экзотические джунгли">
+                                <div class="tours-description">
+                                    <h3 class="tours-description-title">Экзотические джунгли</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- /card -->
+                    </div>
                 </div>
-                <div class="main-content-img">
-                    <img src="./img/main-page/content-2.jpg" alt="Впечатляющие маршруты">
-                </div>
-            </div>  
-            <!-- /main-row -->           
+                <!-- /cards-row-->
+            </div>
+            <!-- /cards-wrapper-->
         </div>
     </main>
     <footer class="footer">
         <div class="container">
-            <!-- footer-row-->
         <div class="footer-row">
                 <div class="footer-copyright">
                     <div class="logo">ФорестТревел</div>
                     <p>При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены. Copyright © 2021</p>
                 </div>
-
-                <!-- footer-widget-wrapper -->
                 <div class="footer-widget-wrapper">  
                     <div class="footer-widget footer-widget-info">
                         <h4 class="footer-widget-title">Информация</h4>
@@ -109,10 +136,8 @@
 
 
                     </div>
-                </div>
-                <!-- /footer-widget-wrapper -->
+                </div> 
             </div>
-             <!-- /footer-row-->
         </div>
     </footer>
 </body>
