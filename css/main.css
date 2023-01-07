@@ -135,7 +135,6 @@ body{
     padding-top: 120px;
     padding-bottom: 120px;
 
-    background-color: #E5E5E5;
 }
 
 .main-row{
@@ -268,7 +267,9 @@ footer .logo {
 
 .inner-page-tours{
     padding-top: 60px;
-    padding-bottom: 100px; 
+    padding-bottom: 100px;
+
+    background-color: #F2F8F6;
 }
 
 .inner-page-tours-header{
