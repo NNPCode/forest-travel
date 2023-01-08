@@ -51,6 +51,7 @@ ul, ul li {
 
 img {
 	vertical-align: top;
+	display: block;
 }
 
 img, svg {
