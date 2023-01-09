@@ -421,7 +421,7 @@ footer .logo {
 
 .inner-page-article-nav-list a:hover {
     position: relative;
-    left: 5px;
+    left: 50px;
 
     text-decoration: underline;
 
@@ -431,6 +431,8 @@ footer .logo {
 }
 
 .inner-page-article-nav-list a:active {
+    position: relative;
+    right: 50px;
     background-color: rgb(185, 193, 191, 0.5);
 }
 
