@@ -77,11 +77,11 @@ input::-ms-clear {
 }
 
 button, input[type="submit"] {
-    display: inline-block;
+    /* display: inline-block;
     box-shadow: none;
     background-color: transparent;
     background: none;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 input:focus, input:active,
