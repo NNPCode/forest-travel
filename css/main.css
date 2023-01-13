@@ -561,10 +561,15 @@ footer .logo {
     padding-left: 39px;
 }
 
+.contacts-widget-list li:last-child{
+    margin-bottom: 0;
+}
+
 .contacts-widget-list li::before {
     content:"";
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
+    top: 6px;
     left: 0;
     width: 24px;
     height: 24px;
@@ -607,6 +612,7 @@ footer .logo {
 
 .form-block {
     margin-bottom: 30px;
+    font-size: 18px;
 }
 
 .form-block:last-of-type {
@@ -653,6 +659,10 @@ input::placeholder {
     margin-bottom: 21px;
 }
 
+.label-radio:last-child {
+    margin-bottom: 0;
+}
+
 .real-radio {
     width: 0;
     height: 0;
@@ -670,7 +680,7 @@ input::placeholder {
     width: 20px;
     height: 20px;
 
-    margin-right: 10px;
+    margin-right: 15px;
 
     vertical-align: bottom;
     
@@ -709,6 +719,10 @@ input::placeholder {
     margin-bottom: 17px;
 }
 
+.label-checkbox:last-child {
+    margin-bottom: 0;
+}
+
 .real-checkbox {
     width: 0;
     height: 0;
@@ -722,7 +736,7 @@ input::placeholder {
     position: relative;
     display: inline-block;
     vertical-align: bottom;
-    margin-right: 10px;
+    margin-right: 15px;
     flex-shrink: 0;
     
     width: 20px;
