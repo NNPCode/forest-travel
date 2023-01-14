@@ -3,10 +3,20 @@
 
 /* font-family: 'Lobster', cursive; */
 
+html {
+    height: 100%; /* sticky footer */
+}
 
 body {
+    height: 100%; /* sticky footer */
+    display: flex; /* sticky footer */
+    flex-direction: column; /* sticky footer */
     font-family: 'PT Sans', sans-serif;
     color: #31405B;
+}
+
+body > * {
+    flex-shrink: 0; /* sticky footer */
 }
 
 input {
@@ -25,6 +35,17 @@ label {
 
 .none {
     display: none;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    margin: 0;
+    padding: 0;
 }
 
 .inner-page {
@@ -226,6 +247,8 @@ label {
 /* Footer */
 
 .footer {
+    margin-top: auto; /* sticky footer */
+
     padding-top: 70px;
     padding-bottom: 90px;
 
