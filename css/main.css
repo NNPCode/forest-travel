@@ -29,8 +29,10 @@ label {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .none {
@@ -145,6 +147,10 @@ legend {
     margin-right: 50px;
 }
 
+.header-nav-button{
+    display: none;
+}
+
 .header-content {
     position: absolute;
     top: 50%;
@@ -161,7 +167,7 @@ legend {
 .header-title {
     font-weight: 700;
     font-size: 60px;
-
+    line-height: 1;
     margin-bottom: 20px;
 }
 
