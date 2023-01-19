@@ -316,7 +316,7 @@ footer .logo {
     text-decoration: underline;
 }
 
-.footer-widget-items {
+.footer-widget-items:not(:last-child) {
     margin-bottom: 15px;
 }
 
