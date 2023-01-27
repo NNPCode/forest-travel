@@ -1,0 +1,45 @@
+.main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-row:not(:last-child) {
+    margin-bottom: 120px;
+}
+
+.main-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.main-content {
+    width: 470px;
+
+    color: #FFFFFF;
+}
+
+.main-content-title {
+    margin-bottom: 20px;
+}
+
+.main-content-text {
+    margin-bottom: 40px;
+
+    font-size: 20px;
+    line-height: 1.6;
+    color: #31405B;
+}
+
+.main-content-text p {
+    margin-bottom: 15px;
+}
+
+.main-content-text a {
+    color: #138ECE;
+    text-decoration: underline;
+}

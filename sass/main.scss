@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap');
+
+// Base
+@import "./base/base";
+
+// Reset
+@import "./base/reset";
+
+// Blocks
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/main";
+@import "./blocks/article";
+@import "./blocks/card";
+@import "./blocks/contacts";
+@import "./blocks/button";
+@import "./blocks/checkbox";
+@import "./blocks/radio";
+@import "./blocks/footer";
+
+// Media
+@import "./media/tablet";
+@import "./media/mobile";
+@import "./media/mobile-xs";
+
