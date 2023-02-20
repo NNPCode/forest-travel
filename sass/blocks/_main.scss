@@ -4,6 +4,12 @@
 
 }
 
+.inner-page {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #F2F8F6;
+  }
+
 .main-row {
     display: flex;
     justify-content: space-between;
@@ -17,9 +23,14 @@
     flex-direction: row-reverse;
 }
 
+.main-title {
+    font-weight: 700;
+    font-size: 54px;
+    color: #31405B;
+}
+
 .main-content {
     width: 470px;
-
     color: #FFFFFF;
 }
 
