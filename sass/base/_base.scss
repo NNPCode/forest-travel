@@ -8,6 +8,10 @@ body {
     flex-direction: column; /* sticky footer */
     font-family: 'PT Sans', sans-serif;
     color: #31405B;
+
+    &.noscroll{
+        overflow: hidden;
+    }
 }
 
 body > * {

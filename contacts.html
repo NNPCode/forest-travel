@@ -18,9 +18,15 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <header class="header-inner"> 
+    <header class="header-inner">
+         <!-- Mobile menu overlay -->
+         <div class="overlay"></div> 
         <div class="header-row">
             <div class="logo">ФорестТревел</div>
+            <!-- Mobile menu button -->
+            <button class="mobile-nav-button">
+                <div class="button-middle-line"></div>
+            </button>
             <nav class="header-nav">
                 <ul class="header-nav-list">
                     <li class="header-nav-item"><a href="./index.html">Главная</a></li>
@@ -29,10 +35,17 @@
                     <li class="header-nav-item"><a href="#">Галерея</a></li>
                     <li class="header-nav-item"><a href="#">Контакты</a></li>
                 </ul>
-                <button class="header-nav-button">
-                    <img src="./img/icons/menu.svg" alt="menu">
-                </button>
             </nav>
+        </div>
+         <!-- Mobile menu -->
+         <div class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./tours.html">Туры и направления</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+            </ul>
         </div>
     </header>
     <main class="inner-page inner-page--contats">
@@ -174,5 +187,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

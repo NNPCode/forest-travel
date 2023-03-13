@@ -8,7 +8,6 @@
     <meta name="description" content="Туристические походы, путешествия город Москва">
     <meta name="keywords" content="Популярные направления, горный Алтай, путешествия">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/media.css">
     
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
@@ -22,9 +21,14 @@
 </head>
 <body>
     <header class="header"> 
+        <div class="overlay"></div>
         <!-- header-row -->
         <div class="header-row">
             <div class="logo">ФорестТревел</div>
+            <button class="mobile-nav-button">
+                <div class="button-middle-line"></div>
+            </button>
+
             <nav class="header-nav">
                 <ul class="header-nav-list">
                     <li class="header-nav-item"><a href="./index.html">Главная</a></li>
@@ -33,12 +37,18 @@
                     <li class="header-nav-item"><a href="#">Галерея</a></li>
                     <li class="header-nav-item"><a href="./contacts.html">Контакты</a></li>
                 </ul>
-                <button class="header-nav-button">
-                    <img src="./img/icons/menu.svg" alt="menu">
-                </button>
             </nav>
         </div>
         <!-- /header-row -->
+        <div class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./tours.html">Туры и направления</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+            </ul>
+        </div>
 
         <!-- header-content -->
         <div class="header-content">
@@ -135,5 +145,7 @@
              <!-- /footer-row-->
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
